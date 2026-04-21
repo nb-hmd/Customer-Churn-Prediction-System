@@ -527,17 +527,3 @@ notebook>=7.0
 nbformat>=5.9
 ipywidgets>=8.0
 ```
-
----
-
-## Key Files
-
-| File                        | Purpose                                                |
-| --------------------------- | ------------------------------------------------------ |
-| `churn_prediction.ipynb`    | Main notebook — all 13 steps with full outputs         |
-| `README.md`                 | This document                                          |
-| `create_notebook.py`        | Script that generates the notebook from scratch        |
-| `add_enhanced_predictor.py` | Script that upgrades Step 13 to the enhanced predictor |
-| `patch_churn_dtype.py`      | Utility patch for Churn dtype fix                      |
-| `Customer-Churn-Dataset/`   | Raw CSV datasets                                       |
-| `plot_*.png`                | Exported visualisation images                          |
